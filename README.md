@@ -12,6 +12,9 @@ Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-mark
 composer require luuhai48/oauth-google
 ```
 
+ - First, Enable `FoF/Oauth`.
+ - Then you can Enable the extension and start using it by entering your `Client_ID` and `Client_Secret` inside Setting Modal of `FoF/Oauth`.
+
 ### Updating
 
 ```sh

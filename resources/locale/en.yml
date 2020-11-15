@@ -7,14 +7,6 @@ fof-oauth:
           client_id_label: => fof-oauth.ref.settings.client_id
           client_secret_label: => fof-oauth.ref.settings.client_secret
 
-  forum:
-    log_in:
-      with_button: Log In with {provider}
-
-    error:
-      bad_verification_code: Invalid or expired verification token. Please try again.
-      invalid_state: Invalid state. Please try again.
-
   lib:
     providers:
       google: Google
@@ -23,4 +15,3 @@ fof-oauth:
     settings:
       client_id: Client ID
       client_secret: Client Secret
-
